@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form action="#" method="post">
+        <h1>Akan Name Generator</h1>
+        <div>
+            <label for="date">Birth Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div id="submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <script src="index.js"></script>
 </body>
 </html>
