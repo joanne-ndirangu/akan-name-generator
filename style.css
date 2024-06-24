@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #FFD100;
+    color: #FFFFFF;
     box-sizing: border-box;
     font-family: 'Alegreya';
 }
 
 body {
-    background-color: #013301;
+    background-color:  #002244;
     padding: 10px;
     overflow-x: hidden;
 }
@@ -20,16 +20,40 @@ body {
     padding-top: 10px
 }
 
+/* .flag img {
+    border-radius: 100%;
+} */
+
+#content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+#content img {
+    flex: 0 0 200px; 
+    margin-right: 20px; 
+    border-radius: 10px; 
+}
+
+#content p {
+    flex: 1;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+
 h1 {
     text-align: center;
-    color: #FFD100;
+    color: #7EC8E3;
     padding-top: 10px;
 }
 
 p {
     font-size: 20px;
     text-align: center;
-    color: #FFD100;
+    color: #7EC8E3;
     padding-top: 20px;
     line-height: 1.5rem;
     width: 80%;
@@ -37,14 +61,14 @@ p {
 }
 
 form {
-    background-color: #EF3340; 
+    background-color: #00509E; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #000000; 
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    border: 3px solid #FFD100; 
+    border: 3px solid #7EC8E3; 
 }
 
 label {
@@ -52,13 +76,13 @@ label {
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: bold;
-    color: rgb(129, 10, 10);
+    color: #7EC8E3;
 }
 
 input{
     padding: 5px;
     background-color: rgb(254, 234, 234);
-    color: #EF3340;
+    color: #7EC8E3;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
@@ -66,7 +90,7 @@ input{
 }
 
 input[type="submit"] {
-    background-color: rgb(129, 10, 10);
+    background-color: #002244;
     color: #faeeee;
     padding: 5px;
     border: none;
@@ -78,15 +102,15 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #4c0404;
-    color: #faeeee;
+    background-color: #7EC8E3;
+    color: #002244;
 }
 
 #result {
     text-align: center;
     margin-top: 20px;
     font-size: 30px;
-    color: rgb(229, 19, 19);
+    color: #7EC8E3;
     font-weight: bold;
     padding: 30px;
 }

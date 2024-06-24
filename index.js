@@ -1,7 +1,9 @@
+// The DOM should fully load before running the script
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('akanForm');
     const resultDiv = document.getElementById('result');
 
+    // Event listener to the form to handle form submission
     form.addEventListener('submit', function(event) {
         event.preventDefault();
         const dateValue = document.getElementById('date').value;
@@ -16,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Function to generate Akan name based on birth date and gender
     function generateAkanName(dateString, gender) {
         const date = new Date(dateString);
         const dayOfWeekIndex = date.getDay(); 
@@ -27,12 +30,14 @@ document.addEventListener('DOMContentLoaded', function() {
         let dayOfWeek = daysOfWeek[dayOfWeekIndex];
         let akanName;
 
+        // Assign the Akan name based on the gender
         if (gender === 'male') {
             akanName = maleNames[dayOfWeekIndex];
         } else {
             akanName = femaleNames[dayOfWeekIndex];
         }
 
+        // Return object containing the day of the week and the Akan name
         return { dayOfWeek, akanName };
     }
 });

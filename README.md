@@ -3,6 +3,7 @@ A dynamic and interactive we application that follows a specific algorithm to de
 
 ## Live Demo
 You can view the live version of my portfolio hosted on GitHub Pages here.
+
 https://joanne-ndirangu.github.io/PersonalPortfolio/
 
 ## Project Structure and Features
