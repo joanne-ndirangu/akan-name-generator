@@ -20,16 +20,8 @@ body {
     padding-top: 10px
 }
 
-/* .flag img {
-    border-radius: 100%;
-} */
-
 .btn-container {
     margin-top: 20px;
-    /* display: flex;
-    flex-direction: row;
-    align-items: center; */
-    margin-left: 500px;
 }
 
 .btn {
@@ -49,7 +41,7 @@ body {
 
 #content {
     display: flex;
-    justify-content: center; 
+    justify-content: space-between; 
     align-items: center; 
     margin-top: 20px; 
     text-align: center;
@@ -63,7 +55,7 @@ body {
 
 #content p {
     flex: 1;
-    font-size: 22px;
+    font-size: 21px;
     color: #FFFFFF;
     line-height: 1.6;
 }
@@ -108,8 +100,8 @@ label {
 
 input{
     padding: 5px;
-    background-color: rgb(254, 234, 234);
-    color: #7EC8E3;
+    background-color: #FFFFFF;
+    color: #00509E;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
@@ -118,7 +110,7 @@ input{
 
 input[type="submit"] {
     background-color: #002244;
-    color: #faeeee;
+    color: #FFFFFF;
     padding: 5px;
     border: none;
     border-radius: 5px;
@@ -142,36 +134,7 @@ input[type="submit"]:hover {
     padding: 30px;
 }
 
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 48px;
-    }
-    p {
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 1199px) and (min-width: 768px) {
-    h1 {
-        font-size: 40px;
-    }
-    p {
-        font-size: 20px;
-        width: 90%;
-    }
-    form {
-        padding: 15px;
-    }
-    input {
-        font-size: 14px;
-    }
-    input[type="submit"] {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 32px;
     }
